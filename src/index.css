@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Black+Ops+One&family=Dancing+Script:wght@700&family=Della+Respira&family=Gabarito&family=Handjet:wght@500;900&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Mooli&family=Pacifico&family=Pangolin&family=Playfair:wght@300&family=Roboto:ital,wght@0,400;0,700;1,300&family=VT323&family=Young+Serif&display=swap');
 
 
+*,
+*::after,
 *::before {
   margin: 0;
   padding: 0;
@@ -12,4 +14,24 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: content-box;
+}
+
+.App {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.resume {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
