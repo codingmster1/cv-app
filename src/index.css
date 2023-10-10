@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url(./assets/background.jpg);
+  background-image: url(./assets/lightbg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: content-box;
