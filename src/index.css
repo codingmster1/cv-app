@@ -99,9 +99,9 @@ body {
   background: #2e2e2e;
 }
 
-/*.link:hover span {
-  color: ;
-}*/
+.link:hover span {
+  color: red;
+}
 
 .link:active {
   transform: scale(0.9);
