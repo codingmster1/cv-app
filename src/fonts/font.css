@@ -1,4 +1,5 @@
 @font-face {
     font-family: 'deathnote';
-    src: url('DeathNote.ttf');
+    src: url('DeathNote.ttf'),
+        url('DeathNote.ttf') format('tff');
 }
