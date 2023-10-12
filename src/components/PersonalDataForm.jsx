@@ -2,8 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAddressCard } from "@fortawesome/free-solid-svg-icons"
 
 function PersonalDataForm({ data, pictureUpload, handleData }) {
-    // eslint-disable-next-line no-unused-vars
-    let filename = null
+
     return (
         <div className="PersonalDataForm">
             <h2 className="heading">
