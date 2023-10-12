@@ -8,7 +8,7 @@
 }
 
 h1 {
-  font-family: deathnote;
+
   color: white;
 }
 
@@ -107,13 +107,6 @@ body {
 
 .link:active {
   transform: scale(0.9);
-}
-
-@media(max-width:1340px) {
-  .HeaderBox {
-    width: 100%;
-    margin: 0 auto;
-  }
 }
 
 
@@ -256,12 +249,7 @@ textarea:hover {
   background: #2b4a49;
 }
 
-@media(max-width:1340px) {
-  .PersonalDataForm {
-    width: 100%;
-    margin: 0 auto;
-  }
-}
+
 
 /* Experience Form Section */
 
@@ -289,13 +277,6 @@ textarea:hover {
   gap: 1rem;
 }
 
-@media(max-width:1340px) {
-  .ExperienceForm {
-    width: 100%;
-    margin: 0 auto;
-  }
-}
-
 
 
 /* Education Form Section */
@@ -310,12 +291,7 @@ textarea:hover {
   gap: 1rem;
 }
 
-@media(max-width:1340px) {
-  .EducationForm {
-    width: 100%;
-    margin: 0 auto;
-  }
-}
+
 
 
 
@@ -381,12 +357,7 @@ textarea:hover {
   transform: scale(0.8);
 }
 
-@media(max-width:1340px) {
-  .SkillsSection {
-    width: 100%;
-    margin: 0 auto;
-  }
-}
+
 
 
 /* Contact Form Section */
@@ -423,12 +394,6 @@ input:focus {
   background: #2b4a49;
 }
 
-@media(max-width:1340px) {
-  .ContactForm {
-    width: 100%;
-    margin: 0 auto;
-  }
-}
 
 /* Resume Preview */
 
@@ -627,6 +592,11 @@ input:focus {
 }
 
 @media(max-width:1340px) {
+  .SkillsSection {
+    width: 100%;
+    margin: 0 auto;
+  }
+
   .App {
     flex-direction: column;
     gap: 2rem;
@@ -636,7 +606,33 @@ input:focus {
     position: static;
     margin: 0 auto;
   }
+
+  .ContactForm {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .HeaderBox {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .PersonalDataForm {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .EducationForm {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .ExperienceForm {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
+
 
 @media(max-width:870px) {
   .ResumePreview {
