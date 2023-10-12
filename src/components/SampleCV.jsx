@@ -45,7 +45,7 @@ const CV = {
         },
         {
             name: "Link to portfolio",
-            text: <a href="https://codingmster1.github.io/adv-portfolio/" target="_blank" rel="noreferrer">Portfolio: Click Me!</a>
+            text: <a href="https://codingmster1.github.io/adv-portfolio/" className="portfolio" target="_blank" rel="noreferrer">Click Me!</a>
         }
     ],
     skills: [

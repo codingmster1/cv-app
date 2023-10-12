@@ -589,6 +589,17 @@ input:focus {
   border-radius: 50%;
 }
 
+.portfolio {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+
+}
+
+
+
 @media(max-width:1340px) {
   .SkillsSection {
     width: 100%;
