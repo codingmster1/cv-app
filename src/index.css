@@ -5,6 +5,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: deathnote;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 
@@ -12,7 +14,7 @@ body {
   background-image: url(./assets/lightbg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-clip: content-box;
+
 }
 
 .App {
@@ -210,7 +212,6 @@ input:focus {
 }
 
 #filepicture {
-  color: var(--accent);
   padding: 1rem;
   background: #292929;
   border-radius: 14px;
@@ -401,6 +402,7 @@ input:focus {
   padding: 2rem 5rem;
   font-size: 15px;
   word-spacing: 2px;
+  color: white;
 }
 
 .ResumeTop {

@@ -2,8 +2,8 @@ import { v4 as uuidv4 } from "uuid";
 import samplePicture from "../assets/lightpfp.jpg";
 
 const CV = {
-    color1: "rgb(91, 205, 188)",
-    color2: "rgb(100, 227, 104)",
+    color1: "rgb(50, 50, 50)",
+    color2: "rgb(0, 0, 0)",
     fileName: "lightpfp.jpg",
     fileSrc: samplePicture,
     info: [
@@ -20,12 +20,12 @@ const CV = {
             text: "Death Note User"
         },
         {
-            name: "Tell something about yourself to stand out from other candidates...",
-            text: `From the moment I stumbled upon this notebook, I knew my life would change forever.`
+            name: "Tell something about yourself to stand out from other candidates.",
+            text: `From the moment I stumbled upon this notebook, I knew my life would change forever. I am Kira!`
         },
         {
             name: "School",
-            text: "Suginami University of Economics"
+            text: "Suginami University"
         },
         {
             name: "Degree",
@@ -68,6 +68,14 @@ const CV = {
         {
             id: uuidv4(),
             text: "Git"
+        },
+        {
+            id: uuidv4(),
+            text: "Nodejs"
+        },
+        {
+            id: uuidv4(),
+            text: "Webpack"
         }
 
     ],
@@ -86,10 +94,11 @@ const CV = {
             company: "University Computer Science Center",
             startDate: "2020",
             endDate: "2022",
-            description: "I would assist in common technical complaints within my university's computer science center"
+            description: "I would assist in common technical student issues within my university's computer science department and fix them immediately."
         }
     ]
 
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default CV
