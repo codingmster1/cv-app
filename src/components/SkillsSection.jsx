@@ -14,7 +14,7 @@ function SkillsSection({ data, addSkill, removeSkill, handleSkill }) {
                         <input
                             id={skill.id}
                             type="text"
-                            placeholder="Language or Techology"
+                            placeholder="Language/Techology/soft skills"
                             value={skill.text}
                             onChange={handleSkill}
                             maxLength={20} />
