@@ -30,11 +30,11 @@ function App() {
                 text: ""
             },
             {
-                name: "Front-End Developer",
+                name: "Honor Student",
                 text: ""
             },
             {
-                name: "Tell something about yourself to stand out from other candidates.",
+                name: "Tell us something about yourself.",
                 text: ""
             },
             {
@@ -58,7 +58,7 @@ function App() {
                 text: ""
             },
             {
-                name: "Link to portfolio",
+                name: "Social Link",
                 text: ""
             }
         ],

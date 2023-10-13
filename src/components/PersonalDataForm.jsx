@@ -25,7 +25,7 @@ function PersonalDataForm({ data, pictureUpload, handleData }) {
             </div>
             <input
                 type="text"
-                placeholder="Front-End Developer"
+                placeholder="Honor Student"
                 maxLength={26}
                 value={data.info[2].text}
                 onChange={handleData} />

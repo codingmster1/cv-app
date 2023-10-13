@@ -44,7 +44,7 @@ const CV = {
             text: "1-800-IAMKIRA"
         },
         {
-            name: "Social/s",
+            name: "Social Link",
             text: "LinkedIn: in/yourusername"
         }
     ],
