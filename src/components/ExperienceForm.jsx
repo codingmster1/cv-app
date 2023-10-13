@@ -27,7 +27,7 @@ function ExperienceForm({ data, addExperience, removeExperience, handleExperienc
                         <input
                             type="text"
                             placeholder="Company"
-                            maxLength={30}
+                            maxLength={38}
                             name="company"
                             value={experience.company}
                             onChange={(e) => handleExperience(e, experience.id)} />
