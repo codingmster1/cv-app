@@ -40,7 +40,7 @@ function PersonalDataForm({ data, pictureUpload, handleData }) {
                 accept="image/*"
                 onChange={pictureUpload} />
             <textarea
-                placeholder="Tell us something about yourself to stand out from other candidates."
+                placeholder="Tell us something about yourself."
                 maxLength={520}
                 cols="30"
                 rows="6"

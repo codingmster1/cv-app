@@ -20,7 +20,7 @@ const CV = {
             text: "Death Note User"
         },
         {
-            name: "Tell something about yourself to stand out from other candidates.",
+            name: "Tell us something about yourself.",
             text: `From the moment I stumbled upon this notebook, I knew my life would change forever. I am Kira!`
         },
         {
@@ -41,11 +41,11 @@ const CV = {
         },
         {
             name: "Phone number",
-            text: "904-603-2504"
+            text: "1-800-IAMKIRA"
         },
         {
-            name: "Link to portfolio",
-            text: <a href="https://codingmster1.github.io/adv-portfolio/" className="portfolio" target="_blank" rel="noreferrer">Click Me!</a>
+            name: "Social/s",
+            text: "LinkedIn: in/yourusername"
         }
     ],
     skills: [

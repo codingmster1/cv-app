@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faPhone, faEnvelope, faGlobe, faMapLocationDot } from "@fortawesome/free-solid-svg-icons"
+import { faMobileScreen, faEnvelope, faMessage, faMapLocationDot } from "@fortawesome/free-solid-svg-icons"
 
 function ResumePreview({ data, reference }) {
     return (
@@ -54,7 +54,7 @@ function ResumePreview({ data, reference }) {
                         <p>{data.info[6].text}</p>
                     </div>
                     <div className="sec">
-                        <FontAwesomeIcon icon={faPhone} size="xl" className="logos" />
+                        <FontAwesomeIcon icon={faMobileScreen} size="xl" className="logos" />
                         <p>{data.info[8].text}</p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ function ResumePreview({ data, reference }) {
                         <p>{data.info[7].text}</p>
                     </div>
                     <div className="sec">
-                        <FontAwesomeIcon icon={faGlobe} size="xl" className="logos" />
+                        <FontAwesomeIcon icon={faMessage} size="xl" className="logos" />
                         <p>{data.info[9].text}</p>
                     </div>
                 </div>

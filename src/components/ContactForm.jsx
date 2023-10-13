@@ -29,9 +29,9 @@ function ContactForm({ data, handleData }) {
                     onChange={handleData} />
             </div>
             <input
-                type="link"
-                placeholder="Link to portfolio"
-                maxLength={80}
+                type="text"
+                placeholder="LinkedIn"
+                maxLength={60}
                 value={data.info[9].text}
                 onChange={handleData} />
         </div>
