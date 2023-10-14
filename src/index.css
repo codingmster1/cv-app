@@ -603,6 +603,10 @@ input:focus {
     margin: 0 auto;
   }
 
+  * {
+    font-size: 10px;
+  }
+
   .App {
     flex-direction: column;
     gap: 2rem;
